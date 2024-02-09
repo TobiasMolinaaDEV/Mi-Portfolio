@@ -14,10 +14,10 @@ export default function HeaderNav (props){
                             <a href={props.home} className="nav-link active">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a href={props.proyects} className="nav-link">Proyects</a>
+                            <a href={props.proyects} className="nav-link">Proyectos</a>
                         </li>
                         <li className="nav-item">
-                            <a href={props.contact} className="nav-link">Contact Me</a>
+                            <a href={props.contact} className="nav-link">Contactame</a>
                         </li>
                         <li className="nav-item">
                             <a href={props.footer} className="nav-link">Footer</a>

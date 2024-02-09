@@ -4,7 +4,7 @@ export default function SectionContact() {
     <section className='container-fluid p-5' id="contact">
         <div className='card'>
           <div className='card-head pt-3 ps-3'>
-            <h3 className="text-center">Contact Me</h3>
+            <h3 className="text-center">Contactame</h3>
           </div>
           <div className='card-body'>
             <form>
