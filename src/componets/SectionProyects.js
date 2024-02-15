@@ -13,17 +13,21 @@ export default function SectionProyects() {
   return (
     <section id='proyects' className='container-fluid bg-primary p-5'>
       <div className='row m-3'>
-        <h3 className='text-center fs-2'>Proyects</h3>
+        <h3 className='text-center fs-2'>Proyectos</h3>
       </div>
       <div className='row d-flex flex-wrap justify-content-around'>
-        <CardProyects key='1' img={proyect1} number={1} />
-        <CardProyects key='2' img={proyect2} number={2} />
-        <CardProyects key='3' img={proyect3} number={3} />
-        <CardProyects key='4' img={proyect4} number={4} />
-        <CardProyects key='5' img={proyect5} number={5} />
-        <CardProyects key='6' img={proyect6} number={6} />
-        <CardProyects key='7' img={proyect7} number={7} />
-        <CardProyects key='8' img={proyect8} number={8} />
+        <CardProyects key='1' img={proyect1} number={1} text="Esta es una prueba para ver como funciona la card" githubLink="https://github.com" webLink="https://www.youtube.com/shorts/Xxn2qGY1TJw" />
+        <CardProyects key='2' img={proyect2} number={2} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='3' img={proyect3} number={3} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='4' img={proyect4} number={4} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='5' img={proyect5} number={5} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='6' img={proyect6} number={6} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='7' img={proyect7} number={7} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='8' img={proyect8} number={8} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='9' img={proyect8} number={9} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='10' img={proyect8} number={10} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='11' img={proyect8} number={11} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
+        <CardProyects key='12' img={proyect8} number={12} text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error."/>
       </div>
     </section>
   );

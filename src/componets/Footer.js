@@ -4,8 +4,14 @@ export default function Footer() {
   return (
     <footer
       id='footer'
-      className='container-fluid bg-dark d-flex flex-wrap align-items-center justify-content-around pb-3'>
-      <div style={{ width: "18rem" }} className='card mt-3'>
+      className='container-fluid bg-dark d-flex flex-wrap align-items-center justify-content-around pb-3 mt-5 text-center'>
+        <p> 2024 Todos Los derechos reservados @ Tobias Moschino Molina developer </p>
+    </footer>
+  );
+}
+
+
+/*  <div style={{ width: "18rem" }} className='card mt-3'>
         <div className='card-head text-center mt-3'>Sections</div>
         <div className='card-body'> 
           <ul className='navbar-nav'> 
@@ -18,13 +24,13 @@ export default function Footer() {
             <li className='nav-item'>
               <a href='#proyects' className='nav-link'>
                 <i className='fas fa-project-diagram me-1'></i>
-                Proyects
+                Proyectos
               </a>
             </li>
             <li className='nav-item'>
               <a href='#contact' className='nav-link'>
                 <i className='fas fa-id-badge me-1'></i>
-                Contact
+                Contacto
               </a>
             </li>
             <li className='nav-item'>
@@ -78,7 +84,4 @@ export default function Footer() {
             © Fonticons, Inc.
           </p>
         </div>
-      </div>
-    </footer>
-  );
-}
+      </div>*/

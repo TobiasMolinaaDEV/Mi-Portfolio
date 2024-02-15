@@ -12,11 +12,11 @@ export default function Main(props) {
         </figure>
         <div style={{width:"30rem"}}>
           <h1 className='text-dark'>
-            Mi nombre es Tobias y soy fullstack developper.
+            Mi nombre es Tobias y soy fullstack developer.
           </h1>
  
           <p className='text-secondary'>
-            Apasionado <span className='text-info'>Full Stack Developer</span> comprometido con la excelencia técnica. Transformo ideas en soluciones robustas e innovadoras. 
+            <span className='text-info'>Full Stack Developer</span> comprometido con la excelencia técnica. Transformo ideas en soluciones robustas e innovadoras. 
             Construyo el futuro, <span className='text-success'>línea de código por línea de código</span>. 
           </p>
         </div>

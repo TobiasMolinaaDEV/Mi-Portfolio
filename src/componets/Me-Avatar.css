@@ -1,0 +1,5 @@
+/* Agrega estas reglas CSS para el efecto de zoom al pasar el mouse */
+.zoom-on-hover:hover {
+    transform: scale(1.1); /* Puedes ajustar el valor según tu preferencia */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+}
