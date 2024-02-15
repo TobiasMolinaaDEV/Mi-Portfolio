@@ -1,5 +1,5 @@
 import React from "react";
-import Me_show from './Me-Avatar.css'
+import AvatarMe from './Me-Avatar.css'
 import Me from '../img/Me-Avatar.jpg';
 import { Figure } from 'react-bootstrap';
 
